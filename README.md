@@ -1,3 +1,3 @@
-# next-mdx-cms
+# next-mdx
 
-A supposed template using Next 13, ContentLayer, Netlify CMS
+A supposed template using Next 13, ContentLayer
