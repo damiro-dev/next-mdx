@@ -12,7 +12,7 @@ const computedFields = {
 
 export const Page = defineDocumentType(() => ({
   name: 'Page',
-  filePathPattern: `pages/**/*.mdx`,
+  filePathPattern: `pages/**/*.md`,
   contentType: 'mdx',
   fields: {
     title: { type: 'string', required: true },
