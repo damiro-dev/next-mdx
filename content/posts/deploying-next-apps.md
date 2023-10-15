@@ -4,7 +4,9 @@ description: How to deploy your Next.js apps on Vercel. Trying `.md`
 date: '2023-01-02'
 ---
 
-Lets try `.md` files
+Lets try `.md` files. Mds with Mdx capabilities!
+
+<Counter />
 
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
 
