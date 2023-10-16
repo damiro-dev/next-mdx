@@ -12,20 +12,21 @@
     <script>
       CMS.registerPreviewStyle('https://fonts.googleapis.com/css2?family=Inter&display=swap');
       CMS.registerPreviewStyle('cms.css');
-      // var PostPreview = createClass({
-      //   render: function () {
-      //     var entry = this.props.entry;
-      //     var date = entry.getIn(['data', 'date']);
-      //     return h(
-      //       'div',
-      //       { className: 'content' },
-      //       h('h1', {}, entry.getIn(['data', 'title'])),
-      //       h('time', {}, entry.getIn(['data', 'date'])),
-      //       h('div', {}, this.props.widgetFor('body'))
-      //     );
-      //   },
-      // });
-      // CMS.registerPreviewTemplate('posts', PostPreview);
+      var PostPreview = createClass({
+        render: function () {
+          var entry = this.props.entry;
+          var date = entry.getIn(['data', 'date']);
+          return h(
+            'div',
+            { className: 'content' },
+            h('h1', {}, entry.getIn(['data', 'title'])),
+            h('time', {}, entry.getIn(['data', 'date'])),
+            h('div', {}, this.props.widgetFor('body'))
+          );
+        },
+      });
+      CMS.registerPreviewTemplate('posts', PostPreview);
+      CMS.registerPreviewTemplate('pages', PostPreview);
     </script>
   </body>
 </html>
