@@ -3,8 +3,8 @@ import { useMDXComponent } from 'next-contentlayer/hooks';
 import Counter from './counter';
 
 const components = {
-  Image: (props: ImageProps) => <NextImage {...props} />,
-  Counter,
+  Image: (props: ImageProps) => <NextImage width={718} height={404} {...props} />, // Image using next/image
+  Counter, // Sample custom component
 };
 
 interface MdxProps {
@@ -13,6 +13,5 @@ interface MdxProps {
 
 export function Mdx({ code }: MdxProps) {
   const Component = useMDXComponent(code);
-
   return <Component components={components} />;
 }
