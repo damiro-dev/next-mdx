@@ -1,6 +1,5 @@
 import './globals.css';
 import Link from 'next/link';
-import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { ModeToggle } from '@/components/mode-toggle';
@@ -19,7 +18,6 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <Script defer src='https://identity.netlify.com/v1/netlify-identity-widget.js' />
       <body
         className={`antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50 ${inter.className}`}
       >
