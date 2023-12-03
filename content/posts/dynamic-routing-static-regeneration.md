@@ -1,10 +1,16 @@
 ---
 title: Dynamic Routing and Static Regeneration
 description: How to use incremental static regeneration using dynamic routes.
-date: '2023-03-04'
+date: 2023-03-04
 ---
 
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
+
+<Image src='/images/blog-post-4.jpg' width='718' height='404' alt='Image' />
+
+```
+this is a text in codeblock
+```
 
 By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
 
@@ -41,9 +47,9 @@ What follows from here is just a bunch of absolute nonsense I've written to dogf
 
 It's important to cover all of these use cases for a few reasons:
 
-1.  We want everything to look good out of the box.
-2.  Really just the first reason, that's the whole point of the plugin.
-3.  Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
+1. We want everything to look good out of the box.
+2. Really just the first reason, that's the whole point of the plugin.
+3. Here's a third pretend reason though a list with three items looks more realistic than a list with two items.
 
 Now we're going to try out another header style.
 
@@ -56,8 +62,6 @@ Something a wise person once told me about typography is:
 > Typography is pretty important if you don't want your stuff to look like trash. Make it good then it won't be bad.
 
 It's probably important that images look okay here by default as well:
-
-<Image src='/images/blog-post-4.jpg' width='718' height='404' alt='Image' />
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
 
@@ -118,18 +122,23 @@ Hopefully that looks good enough to you.
 
 Nested lists basically always look bad which is why editors like Medium don't even let you do it, but I guess since some of you goofballs are going to do it we have to carry the burden of at least making it work.
 
-1.  **Nested lists are rarely a good idea.**
-    - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
-    - Nested navigation in UIs is a bad idea too, keep things as flat as possible.
-    - Nesting tons of folders in your source code is also not helpful.
-2.  **Since we need to have more items, here's another one.**
-    - I'm not sure if we'll bother styling more than two levels deep.
-    - Two is already too much, three is guaranteed to be a bad idea.
-    - If you nest four levels deep you belong in prison.
-3.  **Two items isn't really a list, three is good though.**
-    - Again please don't nest lists if you want people to actually read your content.
-    - Nobody wants to look at this.
-    - I'm upset that we even have to bother styling this.
+1. **Nested lists are rarely a good idea.**
+
+   - You might feel like you are being really "organized" or something but you are just creating a gross shape on the screen that is hard to read.
+   - Nested navigation in UIs is a bad idea too, keep things as flat as possible.
+   - Nesting tons of folders in your source code is also not helpful.
+
+2. **Since we need to have more items, here's another one.**
+
+   - I'm not sure if we'll bother styling more than two levels deep.
+   - Two is already too much, three is guaranteed to be a bad idea.
+   - If you nest four levels deep you belong in prison.
+
+3. **Two items isn't really a list, three is good though.**
+
+   - Again please don't nest lists if you want people to actually read your content.
+   - Nobody wants to look at this.
+   - I'm upset that we even have to bother styling this.
 
 The most annoying thing about lists in Markdown is that `<li>` elements aren't given a child `<p>` tag unless there are multiple paragraphs in the list item. That means I have to worry about styling that annoying situation too.
 

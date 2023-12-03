@@ -3,7 +3,7 @@ import { useMDXComponent } from 'next-contentlayer/hooks';
 import Counter from './counter';
 
 const components = {
-  Image: (props: ImageProps) => <NextImage width={718} height={404} {...props} />, // Image using next/image
+  Image: (props: ImageProps) => <NextImage width={718} height={404} priority {...props} />, // Image using next/image
   Counter, // Sample custom component
 };
 
