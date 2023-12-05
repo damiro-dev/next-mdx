@@ -5,7 +5,10 @@ import { ThemeProvider } from '@/components/ThemeProvider';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { cn } from '@/lib/utils';
 
-const inter = Inter({ subsets: ['latin'] });
+const font = Inter({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+});
 
 export const metadata = {
   title: 'Create Next App',
@@ -21,7 +24,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang='en' suppressHydrationWarning>
       <body
         className={cn(
-          inter.className,
+          font.className,
           'antialiased min-h-screen bg-white dark:bg-slate-950 text-slate-900 dark:text-slate-50'
         )}
       >
