@@ -1,3 +1,6 @@
+site_url: https://next-mdx.netlify.app
+display_url: next-mdx
+logo_url: https://next-mdx.netlify.app/next.svg
 backend:
   name: git-gateway
   branch: main

@@ -6,7 +6,7 @@ date: 2023-03-04
 
 Until now, trying to style an article, document, or blog post with Tailwind has been a tedious task that required a keen eye for typography and a lot of complex custom CSS.
 
-<Image src='/images/blog-post-4.jpg' width='718' height='404' alt='Image' />
+<Image src='/images/blog-post-4.jpg' alt='Image' />
 
 ```
 this is a text in codeblock
