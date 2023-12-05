@@ -4,10 +4,10 @@ import Counter from './Counter';
 
 const components = {
   // Image using next/image
-  // USAGE: <Image src="..." alt="...">
+  // USAGE: <Image src="..." alt="..." />
   Image: (props: ImageProps) => (
     <div className='relative aspect-video object-cover object-center overflow-hidden rounded-lg items-center justify-center flex'>
-      <NextImage fill sizes='full' priority {...props} className='m-0 object-center object-cover' />
+      <NextImage {...props} fill sizes='full' priority className='m-0 object-center object-cover' />
     </div>
   ),
 
