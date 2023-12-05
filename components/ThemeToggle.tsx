@@ -3,7 +3,7 @@
 import { useTheme } from 'next-themes';
 import { BiSolidSun, BiSolidMoon } from 'react-icons/bi';
 
-export function ModeToggle() {
+export function ThemeToggle() {
   const { setTheme, theme } = useTheme();
 
   return (
