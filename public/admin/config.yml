@@ -1,5 +1,5 @@
 site_url: https://next-mdx.netlify.app
-display_url: next-mdx
+display_url: https://next-mdx.netlify.app
 logo_url: https://next-mdx.netlify.app/next.svg
 backend:
   name: git-gateway
