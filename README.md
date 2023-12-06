@@ -9,8 +9,8 @@ Access the admin at [https://next-mdx.netlify.app/admin](https://next-mdx.netlif
 
 ### Development using npm
 
-Install: `npm init`
-Get packages: `npm install`
-Build: `npm run build`
-Run in localhost: `npm run dev`
-To run localhost admin: `npx netlify-cms-proxy-server`
+* Install: `npm init`
+* Get packages: `npm install`
+* Build: `npm run build`
+* Run in localhost: `npm run dev`
+* To run localhost admin: `npx netlify-cms-proxy-server`
