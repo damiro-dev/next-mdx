@@ -45,5 +45,16 @@
     "postcss": "^8",
     "tailwindcss": "^3",
     "typescript": "^5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/studiodamiro/next-mdx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/studiodamiro/next-mdx/issues"
+  },
+  "homepage": "https://github.com/studiodamiro/next-mdx#readme"
 }
