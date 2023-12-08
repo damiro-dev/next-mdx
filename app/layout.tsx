@@ -21,7 +21,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang='en' suppressHydrationWarning>
+    <html lang='en'>
       <body
         className={cn(
           font.className,
